@@ -25,7 +25,7 @@ const client = new Discord.Client();
             useNewUrlParser: true,
             useUnifiedTopology: true
         });
-        client.login("NzIyMjE0OTUyNTE3MTA3Nzcz.Xuf1LA.HeUdz2CXux6wzSOEW1ykgLSLkUk");
+        client.login("process.env.TOKEN");
     } catch (err) {
         return console.log(err);
     };
