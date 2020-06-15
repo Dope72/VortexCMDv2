@@ -25,7 +25,7 @@ const client = new Discord.Client();
             useNewUrlParser: true,
             useUnifiedTopology: true
         });
-        client.login("process.env.TOKEN");
+        client.login(process.env.TOKEN);
     } catch (err) {
         return console.log(err);
     };
